@@ -1,31 +1,51 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div>
+    <Menu/>
+    <router-view></router-view>
+    <Footer/>
   </div>
 </template>
 
+<script>
+import Menu from '@/components/Menu'
+import Footer from '@/components/Footer'
+
+export default {
+  name: 'App',
+  components: {
+    Menu,
+    Footer
+  },
+  data () {
+    return {
+      //
+    }
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
+@import './assets/bootstrap/css/bootstrap.min.css';
+
+* {
+  font-family: 'Karla', sans-serif;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+a:hover {
+  text-decoration: none;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.text-black-50 {
+  color: rgba(0,0,0,.5) !important;
+}
+
+.text-white-50 {
+  color: rgba(255,255,255,.5)!important
+}
+
+.cdp-title h1 {
+      font-size: 3rem;
+      line-height: 4rem;
 }
 </style>
+
