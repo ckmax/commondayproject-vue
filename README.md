@@ -1,4 +1,5 @@
-# cdp
+# commondayproject-vue
+Common Day Project web application using Vuejs
 
 ## Project setup
 ```
@@ -32,6 +33,3 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-# commondayproject-vue
-Common Day Project Webapp using Vuejs
