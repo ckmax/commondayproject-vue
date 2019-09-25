@@ -4,9 +4,12 @@
     <label for="menuToggler" class="menu-toggler"> <span class="menu-toggler__line"></span> <span class="menu-toggler__line"></span> <span class="menu-toggler__line"></span> </label>
     <aside class="sidebar">
       <ul class="menu text-center" v-on:click="toggleMenu">
-        <div class="container" style="width: 35%">
-          <img id="logo" src="../assets/CDP9.png"/>
-        </div>
+        <v-layout>
+          <v-flex md6>
+            <img id="logo" src="../assets/cdp_logo_full.jpeg" aspect-ratio="1"/>
+          </v-flex>
+        </v-layout>
+          <!-- <img id="logo" src="../assets/cdp_logo.jpeg" aspect-ratio="1"/> -->
         <li class="menu__item"><router-link to="/" class="menu__link">Home</router-link></li>
         <li class="menu__item"><router-link to="/about" class="menu__link">About</router-link></li>
         <li class="menu__item"><router-link to="/donation" class="menu__link">Donation</router-link></li>
@@ -168,8 +171,9 @@ position: relative;
 
 #logo {
   position: absolute;
-  top:10%;
-  width:20%;
-  left:40%
+  top:15%;
+  width:15%;
+  left:42%
 }
+
 </style>

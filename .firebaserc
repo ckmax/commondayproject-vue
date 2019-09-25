@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "common-day-project",
+    "cdp": "common-day-project"
+  }
+}

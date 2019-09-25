@@ -13,6 +13,6 @@
 
 <style scoped>
     p {
-        font-size: .90rem
+        font-size: calc(.50rem + .30vw) !important;
     }
 </style>

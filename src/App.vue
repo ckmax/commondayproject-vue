@@ -2,23 +2,45 @@
   <div>
     <Menu/>
     <router-view></router-view>
-    <Footer/>
   </div>
 </template>
 
 <script>
 import Menu from '@/components/Menu'
-import Footer from '@/components/Footer'
+import db from './firebaseInit'
+// console.log(db)
 
 export default {
   name: 'App',
   components: {
-    Menu,
-    Footer
+    Menu
   },
   data () {
     return {
-      //
+      users: []
+    }
+  },
+
+  created() {
+    db.collection("users").get().then(querySnapshot => {
+      querySnapshot.forEach(doc => {
+        console.log(doc.data());
+        const data = {
+
+        }
+      })
+    })
+  },
+
+  // firestore: {
+  //   users: db.collection("users")
+  // },
+
+  methods: {
+    getEmail () {
+      // db.collection('users').get().then( (snapshot) => {
+      //   console.log(snapshot.docs);
+      // })
     }
   }
 }
@@ -43,9 +65,22 @@ a:hover {
   color: rgba(255,255,255,.5)!important
 }
 
-.cdp-title h1 {
-      font-size: 3rem;
-      line-height: 4rem;
+.blackBackground {
+  background-color: black;
+}
+
+p {
+  font-size: 1.1rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .screenPadding {
+    padding: 15rem 0;
+  }
+}
+
+.fullHeight {
+    height: 100vh;
 }
 </style>
 

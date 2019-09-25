@@ -1,5 +1,5 @@
 <template>
-    <v-container align-center v-bind:class="theme" class="customCSS" >
+    <v-container align-center v-bind:class="theme" class="customCSS fullHeight" >
       <slot></slot>
     </v-container>
 </template>
@@ -14,18 +14,11 @@ export default {
 <style scoped media="screen">
 
   .cdp-title h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-
-  .fullHeight {
-    height: 100vh;
+    font-size: calc(2.5rem + 1.5vw);
+    line-height: calc(3rem + 1.5vw);
   }
   
   .customCSS {
     display: flex!important;
   }
-  /* @media only screen and (min-width).cdp-title {
-
-  } */
 </style>

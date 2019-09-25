@@ -17,35 +17,22 @@
           <h1 class="mx-auto"><b>Common day</b></h1>
         </div>
       </Content>
+      <Footer/>
     </v-app>
   </template>
 
   <script>
   import Content from "@/components/Content";
+  import Footer from '@/components/Footer'
 
   export default {
     components: {
-      Content
+      Content,
+      Footer
     }
   }
   </script>
 
   <style scoped media="screen">
-    
-    .cdp-title h1 {
-      font-size: 3rem;
-      line-height: 4rem;
-    }
 
-    /* .y-center {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    } */
-/* 
-
-    /* @media only screen and (min-width).cdp-title {
-
-    } */
   </style>
