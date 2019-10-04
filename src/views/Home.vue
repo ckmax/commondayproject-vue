@@ -11,7 +11,7 @@
 
     <v-app class="white">
       <Content>
-        <div class="ml-auto mr-auto text-left cdp-title">
+        <div id="home" class="ml-auto mr-auto text-left cdp-title">
           <h1 class="mx-auto">Common people</h1>
           <h1 class="mx-auto">Common things</h1>
           <h1 class="mx-auto"><b>Common day</b></h1>
@@ -34,5 +34,5 @@
   </script>
 
   <style scoped media="screen">
-
+ 
   </style>

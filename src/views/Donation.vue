@@ -4,7 +4,12 @@
         <Content v-bind:theme="whiteTheme">
           <div class="ml-auto mr-auto text-center cdp-title">
             <h1 class="">Donation</h1>
-            <p>Contact us at commondayproject@gmail.com</p>
+            <v-layout justify-center>
+              <v-flex xs3>
+                <v-divider/>
+              </v-flex>
+            </v-layout>
+            <p>In order to assist more aspiring students and projects, the need for financial support is inevitably an area we cannot neglect. If you would like to partake in our mission, please either Venmo @CommonDayProject or email us at commondayproject@gmail.com for additional means of donation. 100% of your donations will go directly to the students and this will be reflected in our financial reports.</p>
           </div>
         </Content>
       </div>

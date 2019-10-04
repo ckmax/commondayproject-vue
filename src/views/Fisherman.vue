@@ -2,13 +2,26 @@
     <v-app class="white">
         <div>
             <Content v-bind:theme="whiteTheme">
+            <v-layout column>
             <div class="ml-auto mr-auto text-center cdp-title">
                 <h1 class="">Project Fisherman</h1>
-                <p>Scholarship</p>
-            </div>
+                <v-layout justify-center>
+                  <v-flex xs4>
+                    <v-divider/>
+                  </v-flex>
+                </v-layout>
+                <p>Project Fisherman is an academic scholarship program designed to aid aspiring students in need. By supporting students continue their education, we are planting the seeds that will ultimately grow to instill hope and compassion wherever they go. </p>
+              </div>
+              <v-flex class="text-center">
+                <v-btn outline fab color="grey" v-scroll-to="'#scrollTo'">
+                  <v-icon>keyboard_arrow_down</v-icon>
+                </v-btn>
+              </v-flex>
+            </v-layout>
             </Content>
+
         </div>
-        <div class="blackBackground screenPadding">
+        <div id="scrollTo" class="blackBackground screenPadding">
             <Content v-bind:theme="blackTheme">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -23,10 +36,10 @@
         <Content v-bind:theme="whiteTheme">
           <v-layout justify-center row wrap>
             <v-flex xs12>
-              <h2 class="mb-4">How to apply, it's simple</h2>
+              <h2 class="mb-4">The second phase of Project Fisherman has ended, please stay tuned for the upcoming third phase.</h2>
             </v-flex>
             <v-divider/>
-            <v-flex xs12 md4>
+            <!-- <v-flex xs12 md4>
               <v-card class="ma-4">
                 <v-card-title>
                     <div>
@@ -57,7 +70,7 @@
                     </div>
                 </v-card-title>
               </v-card>
-            </v-flex>
+            </v-flex> -->
           </v-layout>
         </Content>
       </div>

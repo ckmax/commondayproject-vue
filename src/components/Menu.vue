@@ -5,16 +5,20 @@
     <aside class="sidebar">
       <ul class="menu text-center" v-on:click="toggleMenu">
         <v-layout>
-          <v-flex md6>
-            <img id="logo" src="../assets/cdp_logo_full.jpeg" aspect-ratio="1"/>
+          <v-flex xs8>
+            <v-img id="logo" height="90px" contain :src="require('../assets/cdp_logo.png')" aspect-ratio="1"/>
           </v-flex>
         </v-layout>
+        <br>
+        <br><br><br>
           <!-- <img id="logo" src="../assets/cdp_logo.jpeg" aspect-ratio="1"/> -->
         <li class="menu__item"><router-link to="/" class="menu__link">Home</router-link></li>
         <li class="menu__item"><router-link to="/about" class="menu__link">About</router-link></li>
         <li class="menu__item"><router-link to="/donation" class="menu__link">Donation</router-link></li>
+        <li class="menu__item"><router-link to="/newsletter" class="menu__link">Newsletters</router-link></li>
         <hr/>
         <li class="menu__item"><router-link to="/fisherman" class="menu__link">Project Fisherman</router-link></li>
+        <li class="menu__item"><router-link to="/band" class="menu__link">Project Band</router-link></li>
       </ul>
 
       <!-- <v-layout align-end justify-center>
@@ -125,14 +129,14 @@ z-index: 1;
 }
 
 .menu-toggler__line {
-height: calc(var(--toggler-size) / 7);
-background: black;
+height: calc(var(--toggler-size) / 24);
+background: grey;
 position: absolute;
 left: 0;
 right: 0;
 -webkit-transition: all .25s ease-out;
 transition: all .25s ease-out;
-border: 1px solid white;
+/* border: 1px solid white; */
 }
 
 .menu-toggler__line:nth-child(2) {  top: calc(var(--toggler-size) / 5 * 2);

@@ -5,6 +5,8 @@ import About from '@/views/About.vue'
 import Contact from '@/views/Contact.vue'
 import Donation from '@/views/Donation.vue'
 import Fisherman from '@/views/Fisherman.vue'
+import Newsletter from '@/views/Newsletter.vue'
+import Band from '@/views/Band.vue'
 
 Vue.use(Router)
 
@@ -35,6 +37,16 @@ export default new Router({
       path: '/fisherman',
       name: 'fisherman',
       component: Fisherman
+    },
+    {
+      path: '/newsletter',
+      name: 'newsletter',
+      component: Newsletter
+    },
+    {
+      path: '/band',
+      name: 'band',
+      component: Band
     }
   ]
 })

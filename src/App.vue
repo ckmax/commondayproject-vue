@@ -7,7 +7,7 @@
 
 <script>
 import Menu from '@/components/Menu'
-import db from './firebaseInit'
+// import db from './firebaseInit'
 // console.log(db)
 
 export default {
@@ -22,14 +22,14 @@ export default {
   },
 
   created() {
-    db.collection("users").get().then(querySnapshot => {
-      querySnapshot.forEach(doc => {
-        console.log(doc.data());
-        const data = {
+    // db.collection("users").get().then(querySnapshot => {
+    //   querySnapshot.forEach(doc => {
+    //     console.log(doc.data());
+    //     const data = {
 
-        }
-      })
-    })
+    //     }
+    //   })
+    // })
   },
 
   // firestore: {
@@ -81,6 +81,13 @@ p {
 
 .fullHeight {
     height: 100vh;
+}
+
+button {
+  outline: none !important;
+}
+input[type="button"]{
+  outline: none !important;
 }
 </style>
 

@@ -7,7 +7,7 @@ import store from './store'
 // import firebase from 'firebase/app'
 // import "firebase/firestore"
 // import { firestorePlugin } from 'vuefire'
-
+import VueScrollTo from 'vue-scrollto'
 
 Vue.config.productionTip = false
 
@@ -29,6 +29,8 @@ Vue.config.productionTip = false
 // const db = firebaseApp.firestore()
 
 // console.log(db)
+
+Vue.use(VueScrollTo);
 
 new Vue({
   router,
