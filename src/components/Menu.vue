@@ -78,7 +78,7 @@ justify-content: center;
 -webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
-position: absolute;
+position: fixed;
 top: 0;
 height: 100vh;
 opacity: .5;

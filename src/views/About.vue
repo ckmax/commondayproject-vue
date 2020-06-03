@@ -43,7 +43,7 @@
             </div>
             <div class="col-lg-8 mx-auto">
               <h2 class="mb-4">Kyumin Park</h2>
-              <p class="text-black-50">Rutgers University, Statistics major | Demand Planner at Humanscale</p>
+              <p class="text-black-50">Rutgers University, Statistics major | Demand Planner at Thelios USA</p>
               <p class="text-black-50">As I was growing up, I had the luxury of having good people guiding me through life. Although I did not do anything to deserve it, they selflessly sacrificed their time and money. They did not have much, but they knew how to give good gifts to others and that has made all the difference.
               <p class="text-black-50">Knowing how precious these people are in my life, I could not stay still. Their actions have encouraged and inspired me to reach out. Reaching out not to make myself known or drastically change someone's life, but earnestly hoping the best and the brightest future for them.</p>
               <p class="text-black-50">But there is a limit of what I can do and a limit of how far I can reach. Therefore, I dream of a community of good people, giving good gifts. A community of selfless brothers and sisters reaching out to people who need. As well as a community, where people can open up about their needs without feeling ashamed or judged. A community where everyone is together and everything is in common.</p>
@@ -59,7 +59,7 @@
             </div>
             <div class="col-lg-8 mx-auto">
               <h2 class="mb-4 white--text">Capki Kim</h2>
-              <p class="text-white-50">Rutgers University, Computer Science major | Software Engineer at AT&T Labs</p>
+              <p class="text-white-50">Rutgers University, Computer Science major | Software Engineer at Lifion by ADP</p>
               <p class="text-white-50">I once told my younger self that I yearn to live a life working for the people around me. Ambitious, and daring it was; yet ultimately unfruitful. I pretended, and ambitions remained as thoughts.
               <p class="text-white-50">  Now, I ran out of excuses. As I confront the challenges of persistently loving others and letting go of the idols that make us mechanical, it is time to take the initiative to feel and act for those around us.</p>
               <p class="text-white-50">We are just ordinary people, only trying to do what ordinary people should do—spreading love and kindness where we can and when we can. No matter what the measurable fruition of this endeavor may be, we believe in the contagion of good hearts, by the actions of good people; and this, cannot be measured.</p>
